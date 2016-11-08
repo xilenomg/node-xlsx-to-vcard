@@ -1,0 +1,33 @@
+{
+  "name": "node-xlsx-to-vcard",
+  "version": "1.0.0",
+  "description": "Convert XLSX to VCARD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xilenomg/node-xlsx-to-vcard.git"
+  },
+  "author": "Luis Felipe Corrêa Pérez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xilenomg/node-xlsx-to-vcard/issues"
+  },
+  "homepage": "https://github.com/xilenomg/node-xlsx-to-vcard#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.2.0",
+    "node-uuid": "^1.4.7",
+    "nodemon": "^1.11.0",
+    "q": "^1.4.1",
+    "serve-favicon": "^2.3.0",
+    "uuid": "^2.0.3",
+    "xlsx": "^0.8.0"
+  }
+}
